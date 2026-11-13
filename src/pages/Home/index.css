@@ -1,0 +1,423 @@
+main {
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow-x: hidden; /* يمنع أي سكرول أفقي غير مرغوب فيه */
+}
+
+/* ================= Hero / Hosting Section ================= */
+.Hosting {
+    display: flex;
+    background: linear-gradient(to right, #4248bd, #2b6cd4);
+    padding: 60px 5%;
+}
+
+.Hosting .left-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Hosting .left {
+    flex: 1;
+}
+
+.Hosting .left div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Hosting .left div img {
+    width: 20px;
+    height: 20px;
+}
+
+.Hosting .left div p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.Hosting .left h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0;
+    line-height: 1.1;
+    color: #ffffff;
+}
+
+.Hosting .left p {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.Hosting .left p a {
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: solid #ececec 2px;
+    transition: all 0.25s ease;
+}
+
+.Hosting .left p a:hover {
+    color: #ececec;
+    border-bottom-color: #fb8516;
+}
+
+.starting {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.starting a {
+    display: inline-block;
+    background-color: #fb8516;
+    color: #ffffff;
+    padding: 12px 34px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+.starting a:hover {
+    background-color: #ffffff;
+    color: #4248bd;
+}
+
+.starting div p {
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+.starting div p span {
+    color: #fb8516;
+}
+
+.Hosting .right {
+    flex: 1;
+}
+
+.Hosting .right img {
+    width: 100%;
+    height: auto;
+}
+
+/* ================= Icons / Cards Section ================= */
+.icons {
+    padding: 0 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.icons h2 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.1;
+    margin-top: 60px;
+}
+
+.carts {
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.cart {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart img {
+    width: 88px;
+    height: 88px;
+}
+
+.cart h4 {
+    font-size: 24px;
+}
+
+.cart p {
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 0 20px;
+}
+
+.cart span img {
+    width: 35px;
+    height: 35px;
+}
+
+/* ================= Section 3 (Split Banner) ================= */
+.section-3 {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.section-3-left,
+.section-3-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+    padding: 133px 40px;
+    text-align: center;
+}
+
+.section-3-left {
+    background-color: #fb8516;
+}
+
+.section-3-right {
+    background-color: #2b6cd4;
+}
+
+.section-3-left h2,
+.section-3-right h2 {
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.section-3-left p,
+.section-3-right p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.section-3-left a,
+.section-3-right a {
+    background-color: #ffffff;
+    color: black;
+    border: solid 2px transparent;
+    border-radius: 7px;
+    padding: 12px 34px;
+    font-weight: 600;
+    display: inline-block;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    transition: all 0.25s ease;
+}
+
+.section-3-left a:hover {
+    background-color: #fb8516;
+    border-color: white;
+    color: #ffffff;
+}
+
+.section-3-right a:hover {
+    background-color: #4248bd;
+    border-color: white;
+    color: #ffffff;
+}
+
+/* ================= Support Section ================= */
+.support {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 60px;
+    padding: 0 5% 60px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.support .left {
+    flex: 1;
+}
+
+.support .left img {
+    width: 100%;
+    height: auto;
+}
+
+.support .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.support .right h2 {
+    font-size: 48px;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.support .right p {
+    font-size: 22px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.support .right p a {
+    font-size: 18px;
+    color: black;
+    border-bottom: solid #ececec 2px;
+    transition: border-color 0.25s ease;
+}
+
+.support .right p a:hover {
+    border-bottom-color: #fb8516;
+}
+
+.support .right .get a {
+    display: inline-block;
+    background-color: #fb8516;
+    color: #ffffff;
+    padding: 12px 34px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: background-color 0.25s ease;
+}
+
+.support .right .get a:hover {
+    color: #ffffff !important;
+    background-color: #4248bd;
+}
+
+/* =========================================================
+   RESPONSIVE MEDIA QUERIES
+   ========================================================= */
+
+@media (max-width: 1024px) {
+    .Hosting .left h1 {
+        font-size: 46px;
+    }
+
+    .starting div p {
+        margin-left: 0;
+    }
+
+    .icons h2,
+    .section-3-left h2,
+    .section-3-right h2,
+    .support .right h2 {
+        font-size: 38px;
+    }
+
+    .section-3-left,
+    .section-3-right {
+        padding: 80px 30px;
+    }
+
+    .support .right p {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Hosting {
+        padding: 40px 20px;
+    }
+
+    .Hosting .left-right {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Hosting .left div {
+        justify-content: center;
+    }
+
+    .Hosting .left h1 {
+        font-size: 34px;
+    }
+
+    .Hosting .left p {
+        font-size: 16px;
+    }
+
+    .starting {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .starting div p {
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    /* Cards Section */
+    .icons h2 {
+        font-size: 32px;
+        margin-top: 40px;
+    }
+
+    .carts {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .cart p {
+        padding: 0 10px;
+        font-size: 16px;
+    }
+
+    /* Section 3 */
+    .section-3 {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .section-3-left,
+    .section-3-right {
+        padding: 60px 20px;
+        gap: 20px;
+    }
+
+    .section-3-left h2,
+    .section-3-right h2 {
+        font-size: 30px;
+    }
+
+    .section-3-left p,
+    .section-3-right p {
+        font-size: 17px;
+    }
+
+    /* Support Section */
+    .support {
+        flex-direction: column;
+        padding: 0 20px 40px;
+        margin-top: 40px;
+        gap: 25px;
+    }
+
+    .support .right {
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .support .right h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .support .right p {
+        font-size: 17px;
+        text-align: center;
+    }
+}

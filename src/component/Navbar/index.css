@@ -1,0 +1,31 @@
+nav {
+    padding: 10px 0 ;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display:flex;
+    gap: 30px;
+}
+nav ul li a {
+    font-size: 20px ;
+    font-weight: bold;
+}
+
+nav .logo img{
+    width: 200px;
+    height: 200;
+}
+nav ul li a:hover {
+    color: #fb8516;
+    border-bottom: #fb8516 solid 2px;
+}
